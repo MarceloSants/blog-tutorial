@@ -1,8 +1,10 @@
-@import './variables.scss';
-@import './navigation.scss';
+@import './variables';
+@import './navigation';
 @import './home';
 @import './masonry-post';
 @import './post-masonry';
+@import './tag-row';
+@import './post-grid';  
 
 html body {
     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;

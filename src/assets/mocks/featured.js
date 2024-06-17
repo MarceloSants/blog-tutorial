@@ -6,7 +6,7 @@ export default[
         date: moment().format('MMMM DD, YYYY'),
         categories: ['Sport', 'Health'],
         link: '#',
-        image: 'tenis.jpg'
+        image: 'tenis-player.jpg'
     },
     {
         title: 'Painting: A Centuries-old Culture',
@@ -16,7 +16,7 @@ export default[
         image: 'painting.jpg'
     },
     {
-        title: 'Consoles New Generation',
+        title: 'Consoles Old Generation',
         date: moment().format('MMMM DD, YYYY'),
         categories: ['Games', 'Tech'],
         link: '#',

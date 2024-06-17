@@ -8,6 +8,7 @@
     width: 100%;
     text-decoration: none;
     margin: 0 auto;
+    min-height: 225px;
 
     .image-text {
         height: 100%;
@@ -37,19 +38,7 @@
         color: $text-light;
     }
 
-    .tags-container {
-        font-size: 12px;
-        font-weight: 500;
-        margin-bottom: 15px;
-        margin-left: -1;
-        color: white;
-
-        .tag{
-            border-radius: 5px;
-            padding: 4px 8px;
-            margin-right: 5px;
-        }
-    }
+    
 }
 
 @media screen and (max-width: 900px) {

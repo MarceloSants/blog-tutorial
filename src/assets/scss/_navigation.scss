@@ -6,6 +6,9 @@
     justify-content: space-between;
     color: $text-color;
     align-items: center;
+    position: fixed;
+    z-index: 100;
+    top: 0;
 
     .menu-title {
         font-size: 24px;
@@ -75,13 +78,14 @@
             width: 270px;
             height: calc(100% - 65px);
             background: white;
-            position: absolute;
+            position: fixed;
             top: 65px;
             right: -300px;
             transition: 300ms ease left;
             flex-direction: column-reverse;
             padding-left: 30px;
             padding-right: 0px;
+            z-index: 110;
 
             a {
                 width: 100%;

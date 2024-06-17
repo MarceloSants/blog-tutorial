@@ -6,7 +6,7 @@ export default[
         date: moment().format('MMMM DD, YYYY'),
         categories: ['Sport', 'Health'],
         link: '#',
-        image: 'tenis.jpg'
+        image: 'tenis-player.jpg'
     },
     {
         title: 'Cooking Brings Joy',
@@ -16,7 +16,7 @@ export default[
         image: 'cooking.jpg'
     },
     {
-        title: 'Consoles New Generation',
+        title: 'Consoles Old Generation',
         date: moment().format('MMMM DD, YYYY'),
         categories: ['Games', 'Tech'],
         link: '#',
